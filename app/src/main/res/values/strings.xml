@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">AMIT Glow</string>
+    <string name="accessibility_desc">Required to detect screen wake and apply glow effect on lock screen.</string>
+</resources>

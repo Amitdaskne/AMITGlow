@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:padding="24dp"
+    android:background="#0A0A0F" android:gravity="center">
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="AMIT Glow" android:textColor="#00F0FF" android:textSize="32sp"
+        android:textStyle="bold" android:fontFamily="monospace" android:layout_marginBottom="40dp"/>
+
+    <Button android:id="@+id/btnOverlayPerm" android:layout_width="match_parent"
+        android:layout_height="55dp" android:text="1. GRANT OVERLAY PERMISSION"
+        android:backgroundTint="#FF0055" android:textColor="#FFF" android:layout_marginBottom="16dp"/>
+
+    <Button android:id="@+id/btnAccessPerm" android:layout_width="match_parent"
+        android:layout_height="55dp" android:text="2. ENABLE ACCESSIBILITY"
+        android:backgroundTint="#FF0055" android:textColor="#FFF" android:layout_marginBottom="32dp"/>
+
+    <Switch android:id="@+id/switchGlow" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="ENABLE GLOW EFFECT"
+        android:textColor="#00F0FF" android:textSize="18sp" android:textStyle="bold" android:fontFamily="monospace"/>
+
+</LinearLayout>
